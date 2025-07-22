@@ -1,4 +1,4 @@
-Posicao no deposito;Tipo de deposito;Corr.pos.dep.;Col.posicao deposito;Nivel da posição;Subdiv.pos.dep.;Bloq.entr.deposito;Bloq.saida depos.;Estrutura;Tipo;Qtd. Caixas BIN ABASTECIMENTO;Desc_Tp;Desc_tipo_knapp
+Posição no depósito;Tipo de depósito;Corr.pos.dep.;Col.posição deósito;Nível da posição;Subdiv.pos.dep.;Bloq.entr.deposito;Bloq.saída depos.;Estrutura;Tipo;Qtd. Caixas BIN ABASTECIMENTO;Desc_Tp;Desc_tipo_knapp
 M70321020405;M700;M703;21;04;05;;;Controlados;Estanteria;2;Estanteria;B2ES
 M70321020404;M700;M703;21;04;04;;;Controlados;Estanteria;2;Estanteria;B2ES
 M70321020403;M700;M703;21;04;03;;;Controlados;Estanteria;2;Estanteria;B2ES
