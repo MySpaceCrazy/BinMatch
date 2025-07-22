@@ -42,7 +42,7 @@ print("✅ Banco logistica.db atualizado com sucesso.")
 
 # --- Configurações visuais iniciais da página ---
 st.set_page_config(
-    page_title="Simulador de Bins",
+    page_title="BinMatch",
     page_icon="https://raw.githubusercontent.com/MySpaceCrazy/simulador_bin/refs/heads/main/Imagens/CP-6423-01.ico",
     layout="wide"
 )
