@@ -99,7 +99,8 @@ if st.session_state["simulando"]:
 
         # --- Normalizações e ajustes na base ---
         df_base["Recebedor mercadoria"] = df_base["Recebedor mercadoria"].astype(str).str.zfill(5)
-        df_base["Tipo_de_depósito"] = df_base["Área de atividade"].astype(str).str[:2].str.zfill(4)
+        # --- df_base["Tipo_de_depósito"] = df_base["Área de atividade"].astype(str).str[:2].str.zfill(4)
+        df_base["Tipo_de_depósito"] = df_base["Área de atividade"].astype(str).apply(lambda x: x if x[0].isalpha() else x[:2].zfill(4))
         df_base["Peso"] = pd.to_numeric(df_base["Peso"], errors="coerce").fillna(0)
         df_base["Volume"] = pd.to_numeric(df_base["Volume"], errors="coerce").fillna(0)
         df_base["Qtd.solicitada total"] = pd.to_numeric(df_base["Qtd.solicitada total"], errors="coerce").fillna(1)
